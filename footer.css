@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  display: inherit;
+  flex-direction: row;
+  justify-content: space-between;
+  background: none;
+  width: 100%;
+}
+.footer div {
+  width: 30%;
+  background: none;
+  color: black;
+}

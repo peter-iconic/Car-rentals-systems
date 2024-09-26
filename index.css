@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  border-radius: 20px;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline;
+  margin-left: 20px;
+}
+a {
+  text-decoration: none;
+  font-size: large;
+  color: white;
+  padding: 10px;
+}
+a:hover {
+  color: black;
+  background-color: red;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.header {
+  background-color: red;
+  width: 100%;
+}
+nav {
+  background-color: darkred;
+  color: white;
+}
+
+.a {
+  color: red;
+}
+.a:hover {
+  color: darkred;
+  background: none;
+  text-decoration: none;
+  border: none;
+}
